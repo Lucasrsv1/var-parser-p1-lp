@@ -1,0 +1,6 @@
+union A {
+    double b;
+    struct {
+        int c;
+    };
+} e;

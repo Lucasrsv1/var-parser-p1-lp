@@ -1,0 +1,28 @@
+struct A {
+    char b;
+    union C {
+        struct {
+            short d;
+            int e;
+        } f;
+        long g, h;
+        union {
+            float i;
+            double j;
+        } k, l;
+    } c;
+} a;
+long m, n, o;
+char p;
+union {
+    struct T {
+        int u;
+        char v;
+    } t;
+    int w;
+    union {
+        long x;
+    } y;
+} z;
+float q, r;
+double s;

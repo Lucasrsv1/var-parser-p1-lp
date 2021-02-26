@@ -1,0 +1,5 @@
+int a;
+char b, c;
+struct D {
+    double e;
+} f;
